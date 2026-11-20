@@ -1,10 +1,4 @@
-"""Speech preprocessing and feature extraction.
-
-Preprocessing : mono, resample to 16 kHz, peak-normalise, trim leading/trailing silence,
-                cap the length (variable lengths are padded + masked per batch, not here).
-Features      : 64-band log-Mel spectrogram (25 ms window, 10 ms hop -> 100 frames/s),
-                per-utterance mean normalisation  ->  tensor of shape (time_steps, 64).
-"""
+"""Speech preprocessing and feature extraction"""
 from fractions import Fraction
 from pathlib import Path
 
