@@ -1,6 +1,5 @@
 """Multimodal pipeline: speech branch (temporal) + text branch (contextual) -> fusion -> MLP classifier.
---fusion concat : concatenation + linear layer (baseline)
---fusion gated  : learned gate that weights the two modalities per feature"""
+"""
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
