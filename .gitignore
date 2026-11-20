@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+cache/
+checkpoints/
+data/*.csv
+synthetic_tess/
+.ipynb_checkpoints/

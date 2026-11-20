@@ -1,0 +1,4 @@
+path,speaker,word,true,pred,confidence
+/content/drive/MyDrive/datasets/tess/TESS Toronto emotional speech set data/OAF_happy/OAF_wife_happy.wav,OAF,wife,happy,ps,0.9692106
+/content/drive/MyDrive/datasets/tess/TESS Toronto emotional speech set data/OAF_Pleasant_surprise/OAF_calm_ps.wav,OAF,calm,ps,disgust,0.94057846
+/content/drive/MyDrive/datasets/tess/TESS Toronto emotional speech set data/YAF_angry/YAF_third_angry.wav,YAF,third,angry,sad,0.92107475

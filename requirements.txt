@@ -1,0 +1,10 @@
+torch>=2.1
+torchaudio>=2.1
+numpy
+scipy
+pandas
+scikit-learn
+matplotlib
+soundfile
+transformers>=4.30   # only needed for --text_features bert
+kagglehub            # only needed to download TESS in the Colab notebook
