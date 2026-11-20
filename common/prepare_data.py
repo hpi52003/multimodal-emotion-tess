@@ -1,17 +1,5 @@
 #!/usr/bin/env python3
 """Build data/metadata.csv for TESS (Toronto Emotional Speech Set) and create the splits.
-
-TESS file names look like  OAF_back_angry.wav  ->  speaker_word_emotion.wav
-Every clip is the carrier phrase "Say the word <word>", so the transcript is derived from the
-file name. There are 2 speakers x 200 words x 7 emotions = 2800 clips.
-
-Split modes
-  word    (default) words are disjoint between train / val / test (70/15/15 % of the words).
-          Both speakers appear in every split, but no word is shared, so the model cannot
-          memorise a (word -> emotion) shortcut.
-  speaker one speaker is held out entirely for testing (--test_speaker); the other speaker's
-          words are split 85/15 into train / val. This is the hardest, most honest setting.
-
 Usage:
   python common/prepare_data.py --tess_dir /path/to/TESS --out data/metadata.csv
 """
