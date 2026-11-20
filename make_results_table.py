@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""Collect Results/<model>/seed*/metrics.json into the tables and plots used in the report.
-
+"""
 Writes: Results/accuracy_table.md, Results/per_class_f1.md, Results/silhouette_table.md,
         Results/model_comparison.png, Results/per_class_f1.png
 """
