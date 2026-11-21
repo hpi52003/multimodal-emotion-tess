@@ -1,11 +1,4 @@
-"""Text preprocessing and feature extraction.
-
-Preprocessing : lower-case, strip punctuation, whitespace tokenisation.
-Features      : (tokens x features)
-                 'embedding' - trainable word embeddings (vocabulary built from the training split)
-                 'bert'      - frozen DistilBERT token vectors (needs internet / transformers)
-The contextual modelling block (BiLSTM) lives in common/models.py.
-"""
+"""Text preprocessing and feature extraction"""
 import re
 
 import torch
