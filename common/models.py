@@ -1,9 +1,9 @@
-"""Model blocks.
+"""Model blocks
 
-SpeechEncoder  = Temporal modelling : Conv1d front-end -> 2-layer BiGRU -> attention pooling
-TextEncoder    = Contextual modelling: (embedding) -> BiLSTM -> attention pooling
-Fusion         = concat (baseline) or gated fusion
-Classifier     = MLP head with softmax (applied through the cross-entropy loss)
+SpeechEncoder  
+TextEncoder    
+Fusion         
+Classifier     
 """
 import torch
 import torch.nn as nn
